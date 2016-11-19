@@ -17,6 +17,7 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "EmotionsCompetition", "Emot
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		EmotionsCompetition\EmotionsCompetition\EmotionsCompetition.projitems*{88ec5a03-60d9-4f80-8bef-a52052a35bac}*SharedItemsImports = 4
 		EmotionsCompetition\EmotionsCompetition\EmotionsCompetition.projitems*{a6f4d1cf-3bed-42e1-9d1e-558ed2a99621}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -259,6 +260,8 @@ Global
 		{88EC5A03-60D9-4F80-8BEF-A52052A35BAC}.AppStore|x86.Build.0 = Release|x86
 		{88EC5A03-60D9-4F80-8BEF-A52052A35BAC}.AppStore|x86.Deploy.0 = Release|x86
 		{88EC5A03-60D9-4F80-8BEF-A52052A35BAC}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{88EC5A03-60D9-4F80-8BEF-A52052A35BAC}.Debug|Any CPU.Build.0 = Debug|x86
+		{88EC5A03-60D9-4F80-8BEF-A52052A35BAC}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{88EC5A03-60D9-4F80-8BEF-A52052A35BAC}.Debug|ARM.ActiveCfg = Debug|ARM
 		{88EC5A03-60D9-4F80-8BEF-A52052A35BAC}.Debug|ARM.Build.0 = Debug|ARM
 		{88EC5A03-60D9-4F80-8BEF-A52052A35BAC}.Debug|ARM.Deploy.0 = Debug|ARM

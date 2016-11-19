@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmotionsCompetition.Pages.CompetitionPage">
+	  <StackLayout Padding="0">
+      <Image x:Name="Pic" WidthRequest="150" HeightRequest="150" Aspect="AspectFit"/>
+      <Button x:Name="TakePicButton" x:Id="TakePicButton" Text="Take pic" Clicked="PicButton_Clicked"/>
+      <Button x:Name="ChoosePicButton" x:Id="ChoosePicButton" Text="Choose pic" Clicked="PicButton_Clicked"/>
+      <Picker x:Name="EmotionsPicker" HorizontalOptions="FillAndExpand">
+        <Picker.Items>
+          <x:String>Happiness</x:String> 
+          <x:String>Sadness</x:String>
+          <x:String>Surprise</x:String>
+          <x:String>Neutral</x:String>
+          <x:String>Anger</x:String>
+          <x:String>Contempt</x:String>
+          <x:String>Disgust</x:String>
+          <x:String>Fear</x:String>
+        </Picker.Items>
+      </Picker>
+      <Button x:Name="PlayButton" Text="Play!" Clicked="PlayButton_Clicked"/>
+      <Label x:Name="ResultsLabel" Text="---" />
+      <StackLayout x:Name="ResultsPanel"/>
+  </StackLayout>
+</ContentPage>

@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Plugin.Permissions;
 
 namespace EmotionsCompetition.Droid
 {
@@ -19,6 +20,10 @@ namespace EmotionsCompetition.Droid
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 			LoadApplication (new EmotionsCompetition.App ());
 		}
-	}
-}
 
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
+        {
+            PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+    }
+}
